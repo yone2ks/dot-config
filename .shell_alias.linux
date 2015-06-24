@@ -1,0 +1,13 @@
+# set alias
+alias ls='ls -FG --color=auto'
+alias la='ls -AFG --color=auto'
+alias ll='ls -lAFG --color=auto'
+alias l='ls -FG --color=auto'
+alias sl='ls -FG --color=auto'
+alias s='ls -FG --color=auto'
+alias lls='ls -FG --color=auto'
+alias vi='vim'
+alias grep='grep --color=auto'
+alias updatedb='sudo updatedb'
+alias emacs='cd; XMODIFIERS=@im=none emacs &;cd -'
+

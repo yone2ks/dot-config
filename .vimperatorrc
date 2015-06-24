@@ -1,0 +1,22 @@
+"3.9 (created: 2015/02/15 15:49:05)
+
+source! /Users/yonedatk/.vimperatorrc.local
+
+" vim: set ft=vimperator:
+
+" =========================
+" キーマップの設定
+" =========================
+noremap j 5j
+noremap k 5k
+noremap <C-f> <C-n>
+noremap <C-l> <C-p>
+cmap <C-j> <Nop>
+
+" =========================
+" Hint-a-hintの設定
+" =========================
+" hintモードでアルファベットを利用する. 
+" 表示は大文字で, 押すのは小文字で. 
+set hintchars=ifjklasdhguonmerwc
+hi Hint z-index:5000; font-size:14px; color:white; background-color:red; border-color:ButtonShadow; border-width:0px; border-style:solid; padding:0px 2px 0px 2px; position:absolute; font-family: Menlo, Consolas, Monaco, monospace; text-transform: uppercase;
