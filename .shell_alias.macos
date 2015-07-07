@@ -9,5 +9,5 @@ alias lls='ls -FG'
 alias grep='grep --color=auto'
 alias vi='vim'
 alias updatedb='sudo /usr/libexec/locate.updatedb'
-alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs &'
+alias emacs='cd; /Applications/Emacs.app/Contents/MacOS/Emacs &; cd -'
 
