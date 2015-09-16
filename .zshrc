@@ -96,4 +96,5 @@ zstyle ':completion:*' group-name ''
 # EDITORの設定
 export EDITOR=/usr/bin/vim
 
-
+# nodebrewの設定
+export PATH=$HOME/.nodebrew/current/bin:$PATH
