@@ -98,3 +98,6 @@ export EDITOR=/usr/bin/vim
 
 # nodebrewの設定
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+# rbenvの設定
+eval "$(rbenv init - zsh)"
