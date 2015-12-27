@@ -1,13 +1,6 @@
 # MacOS用エイリアス
-alias ls='ls -FG'
-alias la='ls -AFG'
-alias ll='ls -lAFG'
-alias l='ls -FG'
-alias sl='ls -FG'
 alias s='ls -FG'
 alias lls='ls -FG'
-alias grep='grep --color=auto'
-alias vi='vim'
 alias updatedb='sudo /usr/libexec/locate.updatedb'
 alias emacs='cd; /Applications/Emacs.app/Contents/MacOS/Emacs &; cd -'
 
